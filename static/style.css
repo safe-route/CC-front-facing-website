@@ -25,7 +25,7 @@ div, section, span, ul, li, a, header{
 
 .container > div{
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .container > div p{
@@ -53,7 +53,7 @@ header{
 }
 
 #menu li a{
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -68,7 +68,7 @@ section{
 #home{
     background-color: #59405C;
     padding: 6%; 
-    background:url("../images/layered-waves-haikei-white2.svg");
+    background:url("../images/wave-haikei3.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,7 +76,7 @@ section{
 #about{
     background-color: #ED6663;
     padding: 6%;
-    /*background:url("../images/layered-waves-haikei-white.svg");*/
+    background:url("../images/wave-haikei5.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,15 +84,17 @@ section{
 #product{
     background-color: #B52B65;
     padding: 6%;
+    background:url("../images/wave-haikei8.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #pricing{
     background-color: #3C2C3E;
     padding: 6%;
-}
-
-#contact{
-     background-color: #B52B65;
+    background:url("../images/wave-haikei7.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*h1{
@@ -107,10 +109,10 @@ section{
     height: 50px;
 }
 .textLogo{
-    margin-left: -48%;
+    margin-left: -56%;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bolder;
 }
 
@@ -131,6 +133,10 @@ section{
 .container-col > div h1{
     margin-top: 2%;
     color: white;
+}
+.container-col > div p{
+  margin-top: 2%;
+  color: white;
 }
 /* Button Download*/
 .market-btn {
@@ -264,7 +270,7 @@ section{
   height: 15px;
   width: 15px;
   border-radius: 20px;
-  background: black;
+  background: white;
   margin: 4px;
   cursor: pointer;
   transition: all 0.5s ease;
