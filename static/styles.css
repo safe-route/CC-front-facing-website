@@ -146,6 +146,47 @@ section{
   margin-top: 2%;
   color: white;
 }
+/*Animation Home Section*/
+#home span::before {
+  content: " ";
+  animation: animate ease infinite 7s;
+  padding-left: 10px;
+  color: #00A146;
+}
+
+@keyframes animate {
+
+  0% {
+    opacity: 0;
+  }
+  15%{
+    content: "You";
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0;
+  }
+  50%{
+    content: "Me";
+    opacity: 1;
+  }
+  60%{
+    opacity: 0;
+  }
+  70%{
+    opacity: 0;
+  }
+  85%{
+    content: "Everyone";
+    opacity: 1;
+  }
+  95%{
+    opacity: 0;
+  }
+}
 
 /*Download Button*/
 .market-btn {
