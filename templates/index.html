@@ -209,7 +209,7 @@
             map.setMaxBounds(map.getBounds());
 
             // Load a tile layer, load stamen as tile layer
-            L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 subdomains: 'abcd',
                 minZoom: 1,
                 maxZoom: 16,
